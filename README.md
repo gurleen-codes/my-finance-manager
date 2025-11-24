@@ -1,22 +1,32 @@
-A budgeting tool I made to help me figure out where my money goes each month.
+# Personal Finance Tracker
 
-## What it does
-
-You put in your income and it breaks down how much you should put toward rent, food, savings, and bills. Pretty straightforward.
-
-## How to use it
-
-1. Open the HTML file in your browser
-2. Pick if you get paid fortnightly or monthly
-3. Type in your income
-4. Change the percentages if you want
-5. Hit calculate and you're done
+A Windows Forms desktop application designed to help users manage income, bills, budgets, and overall financial health in a simple and structured way.
 
 ## Features
 
-* Choose your pay schedule
-* Adjust budget percentages however you want
-* See exactly how much goes where
-* No installation needed, just works in your browser
+- **Income Management** – Track your income (fortnightly or monthly) with automatic monthly conversion.
+- **Bill Tracking** – Add and manage fixed monthly bills.
+- **Budget Allocation** – Allocate remaining income into categories such as savings or credit card expenses.
+- **Summary View** – Generate a clear monthly summary of your finances.
+- **Persistent Storage** – All data is stored locally using an SQLite database.
 
-Made this because I got tired of doing the math every time.
+## Technologies Used
+
+- C# (.NET 6.0)
+- Windows Forms
+- SQLite
+- Repository pattern with CRUD operations
+
+## Requirements
+
+- Windows 10 or Windows 11  
+- .NET 6.0 Runtime or later  
+- Visual Studio 2022 (recommended for development)
+
+## Getting Started
+
+### Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/PersonalFinanceTracker.git
+cd PersonalFinanceTracker
+
